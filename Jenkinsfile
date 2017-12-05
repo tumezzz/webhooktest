@@ -22,6 +22,7 @@ pipeline {
 
       steps {
         sh "echo hello world from aws jenkins!"
+        sh "echo other test"
       }
 
     }
