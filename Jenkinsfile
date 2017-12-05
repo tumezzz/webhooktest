@@ -11,4 +11,9 @@ pipeline {
       label 'docker'
     }
   }
+
+  stages {
+
+  }
+
 }
