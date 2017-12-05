@@ -8,13 +8,13 @@ pipeline {
    */
   agent {
     node {
-      label 'docker'
+      //label 'docker'
     }
   }
 
   stages {
 
-    stage('Build') {
+    stage('Test') {
 
       steps {
         sh "echo hello world!"
