@@ -1,4 +1,4 @@
-properties(
+/*properties(
   [
     pipelineTriggers(
       [
@@ -7,7 +7,7 @@ properties(
     )
   ]
 )
-
+*/
 pipeline {
 
   agent any
