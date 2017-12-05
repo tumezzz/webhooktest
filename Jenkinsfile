@@ -1,4 +1,12 @@
-properties([pipelineTriggers([[$class: 'GitHubPushTrigger'])])])
+properties(
+  [
+    pipelineTriggers(
+      [
+        [$class: 'GitHubPushTrigger']
+      ]
+    )
+  ]
+)
 
 pipeline {
 
