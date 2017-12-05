@@ -1,13 +1,13 @@
-/*properties(
+properties(
   [
     pipelineTriggers(
       [
-        [$class: 'GitHubPushTrigger']
+        //[$class: 'GitHubPushTrigger']
       ]
     )
   ]
 )
-*/
+
 pipeline {
 
   agent any
