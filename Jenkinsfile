@@ -16,6 +16,10 @@ pipeline {
 
     stage('Build') {
 
+      steps {
+
+      }
+
     }
 
   }
