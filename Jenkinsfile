@@ -14,6 +14,10 @@ pipeline {
 
   stages {
 
+    stage('Build') {
+
+    }
+
   }
 
 }
